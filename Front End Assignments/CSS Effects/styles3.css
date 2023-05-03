@@ -1,0 +1,31 @@
+3. To add positions to a CSS block, you can use the following CSS code
+
+.static-block {
+  position: static; /* set the position to static */
+}
+
+.relative-block {
+  position: relative; /* set the position to relative */
+  top: 10px; /* move the block down by 10 pixels */
+  left: 10px; /* move the block right by 10 pixels */
+}
+
+.fixed-block {
+  position: fixed; /* set the position to fixed */
+  top: 10px; /* place the block 10 pixels from the top of the viewport */
+  right: 10px; /* place the block 10 pixels from the right of the viewport */
+}
+
+.absolute-block {
+  position: absolute; /* set the position to absolute */
+  top: 50%; /* place the block at 50% from the top of the parent element */
+  left: 50%; /* place the block at 50% from the left of the parent element */
+  transform: translate(-50%, -50%); /* center the block */
+}
+
+.sticky-block {
+  position: sticky; /* set the position to sticky */
+  top: 10px; /* stick the block 10 pixels from the top of the viewport */
+}
+
+

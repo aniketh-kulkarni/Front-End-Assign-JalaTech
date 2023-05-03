@@ -1,0 +1,8 @@
+1. To specify a black border for a table and change the page color on hover, can use the following CSS code
+
+table {
+  border: 1px solid black;
+}
+table:hover {
+  background-color: #ccc;
+}

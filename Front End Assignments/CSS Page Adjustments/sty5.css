@@ -1,0 +1,9 @@
+5. To create a page or element with multiple background images and define their adjustable sizes, we can use the following CSS code
+
+
+.element {
+  background-image: url("image1.jpg"), url("image2.jpg"), url("image3.jpg");
+  background-size: 50%, 30%, 20%;
+  background-position: center, top right, bottom left;
+  background-repeat: no-repeat, repeat-x, repeat-y;
+}

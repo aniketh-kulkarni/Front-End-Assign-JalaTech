@@ -1,0 +1,204 @@
+<html>
+<head>
+<title>JALA'S Banking System</title>
+<style>
+/* Style the header */
+header {
+  background-color: navy;
+  color: white;
+  padding: 20px;
+  font-size: 24px;
+}
+
+/* Style the navigation bar */
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: lightblue;
+  padding: 10px;
+}
+
+/* Style the navigation links */
+nav a {
+  color: black;
+  text-decoration: none;
+  padding: 10px;
+}
+
+/* Style the navigation links when hovered */
+nav a:hover {
+  background-color: yellow;
+}
+
+/* Style the active navigation link */
+nav a.active {
+  font-weight: bold;
+}
+
+/* Style the main content */
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* Style the form */
+form {
+  width: 50%;
+  margin: 20px;
+}
+
+/* Style the form fields */
+form input, form select {
+  width: 100%;
+  padding: 10px;
+}
+
+/* Style the form labels */
+form label {
+  display: block;
+}
+
+/* Style the form buttons */
+form button {
+  width: 100%;
+  padding: 10px;
+  background-color: green;
+  color: white;
+}
+
+/* Style the form buttons when hovered */
+form button:hover {
+  background-color: limegreen;
+}
+
+/* Style the invalid form fields */
+form input:invalid {
+  border-color: red;
+}
+
+/* Show a message when an invalid field is focused */
+form input:invalid:focus::after {
+  content: "Please enter a valid value";
+  color: red;
+}
+
+/* Style the table */
+table {
+  width: 80%;
+  border-collapse: collapse;
+}
+
+/* Style the table cells */
+table td, table th {
+  border: 1px solid black;
+  padding: 10px;
+}
+
+/* Style the table header */
+table th {
+  background-color: navy;
+  color: white;
+}
+
+/* Style the odd table rows */
+table tr:nth-child(odd) {
+   background-color:#f2f2
+Received message To develop a web page using all HTML tags, you need to
+f2; 
+}
+
+/* Style the even table rows when hovered */
+table tr:nth-child(even):hover {
+  background-color: yellow;
+}
+
+/* Add a badge before the table cells with a positive balance */
+table td[data-balance]:before {
+  content: attr(data-balance);
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  text-align: center;
+  line-height: 20px;
+}
+
+/* Style the badge based on the balance value */
+table td[data-balance="0"]::before {
+  background-color: gray;
+}
+
+table td[data-balance^="+"]::before {
+  background-color: green;
+}
+
+table td[data-balance^="-"]::before {
+  background-color: red;
+}
+</style>
+</head>
+<body>
+<header>
+  <h1>JALA'S Banking System</h1>
+</header>
+<nav>
+  <a href="#" class="active">Home</a>
+  <a href="about.html">About</a>
+  <a href="#">Contact</a>
+</nav>
+<main>
+  <form>
+    <label for="name">Name:</label>
+    <input type="text" id="name" name="name" required>
+    <label for="email">Email:</label>
+    <input type="email" id="email" name="email" required>
+    <label for="account">Account Type:</label>
+    <select id="account" name="account">
+      <option value="savings">Savings</option>
+      <option value="checking">Checking</option>
+      <option value="credit">Credit</option>
+    </select>
+    <button type="submit">Submit</button>
+  </form>
+  <table>
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Email</th>
+        <th>Account Type</th>
+        <th>Balance</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>Alice</td>
+        <td>alice@example.com</td>
+        <td>Savings</td>
+        <td data-balance="+$100"></td>
+      </tr>
+      <tr>
+        <td>Bob</td>
+        <td>bob@example.com</td>
+        <td>Checking</td>
+        <td data-balance="-$50"></td>
+      </tr>
+      <tr>
+        <td>Charlie</td>
+        <td>charlie@example.com</td>
+        <td>Credit</td>
+        <td data-balance="+$500"></td>
+      </tr>
+      <tr>
+        <td>David</td>
+        <td>david@example.com</td>
+        <td>Savings</td>
+        <td data-balance="$0.0"></td>
+
+      </tr>
+    </tbody>
+  </table>
+</main>
+</body>
+</html>

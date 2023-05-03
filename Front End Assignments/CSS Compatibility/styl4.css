@@ -1,0 +1,5 @@
+4. Hero image
+
+<div style="background-image: url('https://example.com/hero-image.jpg'); background-size: cover; background-position: center; height: 500px;">
+  <h1 style="color: white; text-align: center;">Hero Image Heading</h1>
+</div>

@@ -1,0 +1,5 @@
+4. To handle overflow using scroll, we can use the following CSS code
+
+.overflow-scroll {
+  overflow: auto; /* add a scrollbar if the content overflows */
+}

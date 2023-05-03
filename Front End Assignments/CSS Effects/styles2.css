@@ -1,0 +1,56 @@
+2. To use CSS animations with a name, duration, iteration count, and delay, we can use the following CSS code
+
+@keyframes example-animation {
+  from {
+    opacity: 0;
+    transform: translateX(-50px);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+.example-element {
+  animation-name: example-animation; /* use the animation name */
+  animation-duration: 1s; /* set the duration */
+  animation-iteration-count: infinite; /* set the iteration count */
+  animation-delay: 0.5s; /* set the delay */
+}
+
+/* To add pagination with hoverable effect, you can use the following CSS code: */
+
+.pagination {
+  display: flex; /* make the pagination items appear in a row */
+}
+
+.pagination-item {
+  margin: 0 5px; /* add some space between pagination items */
+  padding: 5px 10px; /* add some padding for visual clarity */
+  border: 1px solid #ccc; /* add a border */
+  border-radius: 5px; /* round the edges */
+  cursor: pointer; /* add a pointer cursor */
+}
+
+.pagination-item:hover {
+  background-color: #ccc; /* add a background color on hover */
+}
+
+/* To add pagination without spaces, you can remove the margin from the pagination items and use the following CSS code: */
+
+.pagination {
+  display: flex;
+  justify-content: center; /* center the pagination items */
+}
+
+.pagination-item {
+  margin: 0; /* remove margin */
+  padding: 5px 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.pagination-item:not(:last-child) {
+  margin-right: 5px; /* add some space between pagination items except the last one */
+}

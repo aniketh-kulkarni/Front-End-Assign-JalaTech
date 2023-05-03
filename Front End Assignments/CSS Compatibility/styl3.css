@@ -1,0 +1,10 @@
+3. Grid with different types
+
+<div style="display: grid; grid-template-columns: repeat(3, 1fr); grid-gap: 10px;">
+  <div style="background-color: red;">Grid Item 1</div>
+  <div style="background-color: green;">Grid Item 2</div>
+  <div style="background-color: blue;">Grid Item 3</div>
+  <div style="background-color: yellow;">Grid Item 4</div>
+  <div style="background-color: purple;">Grid Item 5</div>
+  <div style="background-color: orange;">Grid Item 6</div>
+</div>

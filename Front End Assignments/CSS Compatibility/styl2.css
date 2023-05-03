@@ -1,0 +1,9 @@
+2. List with different list-style-type
+
+<ul>
+  <li style="list-style-type: disc;">Disc List Item 1</li>
+  <li style="list-style-type: circle;">Circle List Item 2</li>
+  <li style="list-style-type: square;">Square List Item 3</li>
+  <li style="list-style-type: decimal;">Decimal List Item 4</li>
+  <li style="list-style-type: lower-roman;">Lower Roman List Item 5</li>
+</ul>

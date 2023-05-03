@@ -1,0 +1,33 @@
+2. To apply different visibility and display properties to an element, we can use the following CSS code
+
+.element-hidden {
+  visibility: hidden;
+}
+
+.element-visible {
+  visibility: visible;
+}
+
+.element-collapsed {
+  visibility: collapse;
+}
+
+.element-none {
+  display: none;
+}
+
+.element-inline {
+  display: inline;
+}
+
+.element-block {
+  display: block;
+}
+
+.element-contents {
+  display: contents;
+}
+
+.element-list-item {
+  display: list-item;
+}

@@ -1,0 +1,11 @@
+1. To apply CSS shadow effects to an image box and add a hover cursor, we can use the following CSS code
+
+.image-box {
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5); /* apply shadow effect */
+  transition: all 0.3s ease-in-out; /* add transition for smooth effect */
+}
+
+.image-box:hover {
+  cursor: pointer; /* change cursor to pointer on hover */
+  transform: scale(1.05); /* add slight scale effect on hover */
+}

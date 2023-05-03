@@ -1,0 +1,18 @@
+3. To create a different page with the width, style and color of the 4 border-style(set different borders on each side with different patterns)
+
+div {
+  border-top-style: dotted;
+  border-right-style: solid;
+  border-bottom-style: double;
+  border-left-style: dashed;
+
+  border-top-color: red;
+  border-right-color: blue;
+  border-bottom-color: green;
+  border-left-color: yellow;
+
+  border-top-width: thick;
+  border-right-width: thin;
+  border-bottom-width: medium;
+  border-left-width: thick;
+}

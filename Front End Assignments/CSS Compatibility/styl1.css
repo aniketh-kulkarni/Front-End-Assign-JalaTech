@@ -1,0 +1,62 @@
+1. Table with fixed and none table-layout
+
+<table style="table-layout: fixed; width: 100%;">
+  <thead>
+    <tr>
+      <th style="width: 20%;">Name</th>
+      <th style="width: 40%;">Description</th>
+      <th style="width: 40%;">Price</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Product 1</td>
+      <td>Description of product 1</td>
+      <td>$10</td>
+    </tr>
+    <tr>
+      <td>Product 2</td>
+      <td>Description of product 2</td>
+      <td>$20</td>
+    </tr>
+    <tr>
+      <td>Product 3</td>
+      <td>Description of product 3</td>
+      <td>$30</td>
+    </tr>
+  </tbody>
+</table>
+
+None table-layout
+
+<table style="table-layout: none; width: 100%;">
+  <colgroup>
+    <col style="width: 20%;">
+    <col style="width: 40%;">
+    <col style="width: 40%;">
+  </colgroup>
+  <thead>
+    <tr>
+      <th>Name</th>
+      <th>Description</th>
+      <th>Price</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Product 1</td>
+      <td>Description of product 1</td>
+      <td>$10</td>
+    </tr>
+    <tr>
+      <td>Product 2</td>
+      <td>Description of product 2</td>
+      <td>$20</td>
+    </tr>
+    <tr>
+      <td>Product 3</td>
+      <td>Description of product 3</td>
+      <td>$30</td>
+    </tr>
+  </tbody>
+</table>

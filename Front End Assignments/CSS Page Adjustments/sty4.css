@@ -1,0 +1,14 @@
+4. To add padding and margin with different sizes and understand the difference between them, we can use the following CSS code
+
+.element {
+  padding: 10px;
+  margin: 20px;
+}
+
+.element-without-padding {
+  margin: 20px;
+}
+
+.element-without-margin {
+  padding: 10px;
+}

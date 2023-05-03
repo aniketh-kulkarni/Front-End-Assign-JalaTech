@@ -1,0 +1,9 @@
+4. To develop a page and set the height:(in pixels and %) and width:(in pixels and %) on elements
+
+div {
+  height: 100px; /* in pixels */
+  height: 50%; /* in percentage */
+  
+  width: 100px; /* in pixels */
+  width: 50%; /* in percentage */
+}
